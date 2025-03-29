@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Awesome Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About-page.html">About</a></li>
+                    <li><a href="contact-page.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="blog-posts">
+            
+            </section>
+            <div class="widget">
+                <h3>Blogs</h3>
+                <ul>
+                    <li><a href="#article-1" onclick="highlightArticle('article-1')">The Rise of Artificial Intelligence</a></li>
+                    <li><a href="#article-2" onclick="highlightArticle('article-2')">Title of Blog Post 2</a></li>
+                </ul>
+            </div>
+            </aside>
+
+            <article id="article-1" class="blog-post">
+                <img src="AI.webp" alt="Blog Post Image" style=" background-size: cover; background-position: center; height: 75px; border-radius: 5px; width: 150px;">
+                <h2><a href="blog-post-1.html" style="text-decoration: none; color: #2575fc">The Rise of Artificial Intelligence</a></h2>
+                <p class="post-meta">Published on: March 29, 2025</p>
+                <p style="padding-bottom: 10px;">AI transforms industries, offering potential but raising ethical challenges...</p>
+                <a href="blog-post-1.html" class="read-more">Read More</a>
+            </article>
+
+            <article id="article-2" class="blog-post">
+                <img src="placeholder.jpg" alt="Blog Post Image">
+                <h2><a href="blog-post-1.html" style="text-decoration: none; color: #2575fc">Title of Blog Post 2</a></h2>
+                <p class="post-meta">Published on: January 15, 2024</p>
+                <p style="padding-bottom: 10px;">This is a short excerpt of the second blog post. You can tease the content here...</p>
+                <a href="blog-post-1.html" class="read-more">Read More</a>
+            </article>
+            <!-- More blog posts go here -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Awesome Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
